@@ -8,12 +8,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title:Text("catalougggg App"),
+        title:Text("cataloug App"),
       ),
       body:Center(
         child:Center(
           child:Container(
-            child: Text("welcome to $days boby days for $name"),
+            child: Text("welcome to $days b days for $name"),
           ),
        ),
      ),
