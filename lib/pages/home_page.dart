@@ -14,14 +14,25 @@ class HomePage extends StatelessWidget {
         
           foregroundColor: Colors.black,),
       
-      body:Center(
-        child:Center(
-          child:Container(
-            child: Text("welcome to $days b days for $name"),
+      body:Container(
+        constraints: BoxConstraints(
+          maxHeight: 200,
+          maxWidth: 200,
+          minHeight: 70,
+          minWidth: 70
           ),
-       ),
-     ),
-     drawer: mydrawer(),
-    );
+       
+        color: Colors.amber,
+      
+        child: Container(
+               height: 100,
+               width: 100,
+               color: Colors.green,
+            ),
+      ),
+        
+      );
+     drawer: mydrawer();
+    
   }
 }
