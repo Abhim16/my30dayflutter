@@ -10,8 +10,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title:Text("cataloug App"),
-      ),
+        title: Text("Catalog App"),
+        
+          foregroundColor: Colors.black,),
+      
       body:Center(
         child:Center(
           child:Container(
